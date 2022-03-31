@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project-Consumo API</title>
+  <style sheet></style>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1>ESTABLO DE UNICORNIOS</h1>
+  </header>
+  <main>
+    <div class="container">
+      <p>Agregar unicornio al establo</p>
+      <div class="content-form">
+        <form action="">
+          <div class="campo">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" class="input" placeholder="Agrega Nombre" required>
+          </div>
+          <div class="campo">
+            <label for="name">Poder</label>
+            <input type="text" id="power" class="input" placeholder="Agrega Poder" required>
+          </div>
+          <div class="campo">
+            <label for="name">Foto</label>
+            <input type="textl" id="image" class="input" placeholder="Agrega url de foto .jpg o .png" required>
+          </div>
+          <div class="campo">
+            <label for="name">Edad</label>
+            <input type="text" id="age" class="input" placeholder="Agrega Edad - Opcionl">
+          </div>
+          <button type="button" class="extended" id="btn-crear">Agregar</button>
+
+        </form>
+      </div>
+    </div>
+  </main>
+
+
+  <section class="container-establo">
+    <p>Establo</p>
+    <hr class="linea">
+    <!-- <div class="container"> -->
+    <div id="unicornio-cards" class="unicornio-cards">
+
+    </div>
+    <!-- </div> -->
+  </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
